@@ -1,6 +1,8 @@
 # Duplicate Killer #
 
-Duplicate Killer is an open-source byte-by-byte file comparison with match detection and duplicate file deletion features, developed in Visual Basic 6 by LoloyD of LD TechnoLogics http://loloyd.com/ and available at https://github.com/loloyd/duplicatekiller/.  Design considerations are on the most minimal requirements for VB6 as possible, hence the absence of explicit file pickers and the utilization of drag-drop functionalities.
+## Introduction ##
+
+Duplicate Killer is an open-source byte-by-byte file comparison with match detection and duplicate file deletion features, developed in Visual Basic 6 by LoloyD of LD TechnoLogics http://loloyd.com/ and available at https://github.com/loloyd/duplicatekiller/.  Design considerations are on the most minimal requirements for VB6 as possible, hence the utilization of drag-and-drop functionality and the absence of explicit file pickers.
 
 It can run in Linux environments with WineTricks installed and appropriate libraries, particularly the vb6run (MS Visual Basic 7 runtime sp6) package, duly installed.
 
@@ -8,11 +10,11 @@ It can run in Linux environments with WineTricks installed and appropriate libra
 
 1. Drag and drop possible duplicate files into the "Target" list box.  Files will be checked here for duplicate matches against files found in the "Source" list box once the "Detect Duplicates" command button has been summoned.
 
-1a. To remove listed files (delist) from the *"Target"* list box, make a selection of the desired files first then click on the Delete keyboard button.
+ 1a. To remove listed files (delist) from the *"Target"* list box, make a selection of the desired files first then click on the Delete keyboard button.
 
 2. Drag and drop potential comparison files into the *"Source"* list box.  Files listed here will serve as reference files for comparison only once the *"Detect Duplicates"* command button has been summoned.
 
-2a. To remove listed files (delist) from the *"Source"* list box, make a selection of the desired files first then click on the Delete keyboard button.
+ 2a. To remove listed files (delist) from the *"Source"* list box, make a selection of the desired files first then click on the Delete keyboard button.
 
 3. Mark the *"Kill detected duplicates"* checkbox if the deletion of detected duplicate files from the *"Target"* list box is desired.  When marked, the *"Detect Duplicates"* command button changes its caption to *"Detect Duplicates and Kill"*.  When unmarked, the *"Detect Duplicates"* command button changes its caption to *"Detect Duplicates Only"*.
 
@@ -37,3 +39,4 @@ GNU-GPL or its lesser derivatives apply, or whichever license closest to GNU-GPL
 2018 March 30
  - initial release by Loloy D
  - Corrected link from github.io to https://github.com/loloyd/duplicatekiller/
+ - Corrected Introduction.  Attempted to rationalize Quick Usage Instructions numbering markdown.
