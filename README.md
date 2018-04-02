@@ -4,7 +4,7 @@
 
 Duplicate Killer is an open-source byte-by-byte file comparison with match detection and duplicate file deletion features, developed in Visual Basic 6 by LoloyD of LD TechnoLogics http://loloyd.com/ and available at https://github.com/loloyd/duplicatekiller/.  Design considerations are on the most minimal requirements for VB6 as possible, hence the utilization of drag-and-drop functionality and the absence of explicit file pickers.
 
-It can run in Linux environments with WineTricks installed and appropriate libraries, particularly the vb6run (MS Visual Basic 7 runtime sp6) package, duly installed.
+It can run in Linux environments with WineTricks installed and appropriate libraries, particularly the vb6run (MS Visual Basic 6 runtime sp6) package, duly installed.
 
 ## Quick Usage Instructions ##
 
@@ -41,3 +41,4 @@ GNU-GPL or its lesser derivatives apply, or whichever license closest to GNU-GPL
  - Corrected link from github.io to https://github.com/loloyd/duplicatekiller/
  - Corrected Introduction.  Attempted to rationalize Quick Usage Instructions numbering markdown.
  - Further corrections on Quick Usage Instructions, especially on markdown.  Clarified checkbox option language. 
+ - Corrected MS Visual Basic 6 citation in Introduction
